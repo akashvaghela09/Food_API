@@ -1,15 +1,23 @@
 {
-  "name": "restful-api",
+  "name": "food-api",
   "version": "1.0.0",
-  "description": "A fake RESTful API for testing purposes, ready to deploy to services like Heroku.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "json-server --watch db.json"
   },
-  "author": "nbkhope",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashvaghela09/Food_API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashvaghela09/Food_API/issues"
+  },
+  "homepage": "https://github.com/akashvaghela09/Food_API#readme",
   "dependencies": {
-    "json-server": "^0.9.1"
+    "json-server": "^0.16.3"
   }
 }
